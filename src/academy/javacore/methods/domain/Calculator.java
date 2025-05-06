@@ -38,4 +38,22 @@ public class Calculator {
         System.out.println("Número 2: " + number2);
 
     }
+
+    public void sumArray(int[] vector) {
+        int sum = 0;
+        for (int num: vector) {
+
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumArrayArgs(int... vector) {
+        int sum = 0;
+        for (int num: vector) {
+
+            sum += num;
+        }
+        System.out.println(sum);
+    }
 }

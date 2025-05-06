@@ -11,6 +11,10 @@ public class StudentTest01 {
         student1.age = 19;
         student1.gender = 'M';
 
+        student2.name = "Felipe";
+        student2.age = 21;
+        student2.gender = 'M';
+
 
         PrintStudent printStudent = new PrintStudent();
         printStudent.printStudent(student1);

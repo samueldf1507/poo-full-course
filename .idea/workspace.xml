@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22badd-520e-41b7-9426-52d70ddba4ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/PrintStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/CalculatorTest04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/StudentTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/CalculatorTest05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/EmployeeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/PersonTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/StudentTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/javacore/methods/domain/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/javacore/methods/test/StudentTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/javacore/methods/test/StudentTest01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,8 @@
     "Application.CalculatorTest03.executor": "Run",
     "Application.CalculatorTest04.executor": "Run",
     "Application.CarTest01.executor": "Run",
+    "Application.EmployeeTest01.executor": "Run",
+    "Application.PersonTest01.executor": "Run",
     "Application.StudentTest01.executor": "Run",
     "Application.StudentTest02.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -51,9 +57,9 @@
     "onboarding.tips.debug.path": "C:/Users/Memel/IdeaProjects/poo-full-course/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StudentTest01">
-    <configuration name="CalculatorTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.CalculatorTest01" />
+  <component name="RunManager" selected="Application.PersonTest01">
+    <configuration name="CalculatorTest05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.CalculatorTest05" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.CalculatorTest02" />
+    <configuration name="EmployeeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.EmployeeTest01" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
@@ -78,21 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.CalculatorTest03" />
-      <module name="poo-full-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.javacore.methods.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.CalculatorTest04" />
+    <configuration name="PersonTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.PersonTest01" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.StudentTest02" />
+      <module name="poo-full-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.javacore.methods.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonTest01" />
+        <item itemvalue="Application.EmployeeTest01" />
+        <item itemvalue="Application.CalculatorTest05" />
+        <item itemvalue="Application.StudentTest02" />
         <item itemvalue="Application.StudentTest01" />
-        <item itemvalue="Application.CalculatorTest04" />
-        <item itemvalue="Application.CalculatorTest03" />
-        <item itemvalue="Application.CalculatorTest02" />
-        <item itemvalue="Application.CalculatorTest01" />
       </list>
     </recent_temporary>
   </component>
