@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22badd-520e-41b7-9426-52d70ddba4ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/constructors/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/constructors/test/AnimeTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/test/AnimeTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/overloadmethods/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/overloadmethods/test/AnimeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Local.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Seminar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/SchoolTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/domain/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/domain/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/test/AnimeTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/test/CarTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/domain/Anime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +58,17 @@
     "Application.CalculatorTest04.executor": "Run",
     "Application.CarTest01.executor": "Run",
     "Application.EmployeeTest01.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.PersonTest01.executor": "Run",
+    "Application.PlayerTest01.executor": "Run",
+    "Application.PlayerTest02.executor": "Run",
+    "Application.PlayerTest03.executor": "Run",
+    "Application.SchoolTest01.executor": "Run",
     "Application.StudentTest01.executor": "Run",
     "Application.StudentTest02.executor": "Run",
     "Application.academy.javacore.constructors.test.AnimeTest01.executor": "Run",
     "Application.academy.javacore.initializationBlock.test.AnimeTest01.executor": "Run",
+    "Application.academy.javacore.staticModifier.test.AnimeTest01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -59,17 +77,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="academy.javacore.staticModifier.domain" />
       <recent name="academy.javacore.constructors.test" />
       <recent name="academy.javacore.constructors.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.academy.javacore.initializationBlock.test.AnimeTest01">
-    <configuration name="AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.overloadmethods.test.AnimeTest01" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.exercise.test.Main" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.javacore.overloadmethods.test.*" />
+          <option name="PATTERN" value="academy.javacore.assosiation.exercise.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.EmployeeTest01" />
+    <configuration name="PlayerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.PlayerTest01" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.javacore.methods.test.*" />
+          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.methods.test.PersonTest01" />
+    <configuration name="PlayerTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.PlayerTest02" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.javacore.methods.test.*" />
+          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="academy.javacore.constructors.test.AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.constructors.test.AnimeTest01" />
+    <configuration name="PlayerTest03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.PlayerTest03" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.javacore.constructors.test.*" />
+          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="academy.javacore.initializationBlock.test.AnimeTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.initializationBlock.test.AnimeTest01" />
+    <configuration name="SchoolTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.SchoolTest01" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.javacore.initializationBlock.test.*" />
+          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.academy.javacore.initializationBlock.test.AnimeTest01" />
-        <item itemvalue="Application.academy.javacore.constructors.test.AnimeTest01" />
-        <item itemvalue="Application.AnimeTest01" />
-        <item itemvalue="Application.PersonTest01" />
-        <item itemvalue="Application.EmployeeTest01" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PlayerTest03" />
+        <item itemvalue="Application.SchoolTest01" />
+        <item itemvalue="Application.PlayerTest02" />
+        <item itemvalue="Application.PlayerTest01" />
       </list>
     </recent_temporary>
   </component>
