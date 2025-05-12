@@ -5,25 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea22badd-520e-41b7-9426-52d70ddba4ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/domain/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Local.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Seminar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/domain/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/exercise/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/PlayerTest03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/assosiation/test/SchoolTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/domain/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/domain/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/test/AnimeTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/academy/javacore/staticModifier/test/CarTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/heritage/domain/Adress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/heritage/domain/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/heritage/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/heritage/test/HeritageTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/academy/javacore/heritage/test/HeritageTest02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/javacore/initializationBlock/domain/Anime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +45,7 @@
     "Application.CalculatorTest04.executor": "Run",
     "Application.CarTest01.executor": "Run",
     "Application.EmployeeTest01.executor": "Run",
+    "Application.HeritageTest01.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.PersonTest01.executor": "Run",
     "Application.PlayerTest01.executor": "Run",
@@ -82,39 +70,39 @@
       <recent name="academy.javacore.constructors.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.HeritageTest02">
+    <configuration name="HeritageTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.heritage.test.HeritageTest01" />
+      <module name="poo-full-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.javacore.heritage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeritageTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.javacore.heritage.test.HeritageTest02" />
+      <module name="poo-full-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.javacore.heritage.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.exercise.test.Main" />
       <module name="poo-full-course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="academy.javacore.assosiation.exercise.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.PlayerTest01" />
-      <module name="poo-full-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.javacore.assosiation.test.PlayerTest02" />
-      <module name="poo-full-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="academy.javacore.assosiation.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeritageTest02" />
+        <item itemvalue="Application.HeritageTest01" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PlayerTest03" />
         <item itemvalue="Application.SchoolTest01" />
-        <item itemvalue="Application.PlayerTest02" />
-        <item itemvalue="Application.PlayerTest01" />
       </list>
     </recent_temporary>
   </component>
